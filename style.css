@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./beautiful-blue-color-background.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    display: flex;
+}
+.h1{
+    font-size: large;
+    font-weight: bold;
+    margin: 30px;
+}
+.navbar{
+    justify-content: space-around;
+    margin: 30px;
+}
+ul li{
+    list-style-type: none;
+    display: flex;
+}
+ul{
+    font-size: 20px;
+    gap: 30px;
+    display: flex;
+    margin:top;
+    font-weight: lighter;
+    color: black;
+    text-decoration: none;
+}
+a.li{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+.inputfield{
+    background-color: rgb(193, 235, 198);
+    color:blue;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+    margin: 150px;
+    margin-top: 20px;
+    height: 40px;
+    width:150px;
+}
+.article{
+    display: inline;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+}
+.h2{
+    font-size: 10px;
+}
+.h11{
+    font-size: 30px;
+    font-weight: bolder;
+}
+div p{
+    font-size: 20px;
+}
+.input{
+    height: 50px;
+    padding: 10px;
+}
+.email{
+    height: 10px;
+    width:200px;
+    padding: 10px;
+    color: black;
+}
+.btn{
+    color: white;
+    background-color: red;
+    height:40px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+.id{
+    display: flex;
+    margin-left: auto;
+    margin: 60px;
+    gap: 120px;
+}
+.h22{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.p1{
+    font-size: 20px;
+}
